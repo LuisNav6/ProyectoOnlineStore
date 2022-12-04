@@ -1,0 +1,374 @@
+.login-form,
+.login-form *{
+    box-sizing: border-box;
+}
+
+.login-form{
+    max-width: 450px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden; /* Sirve para mostrar siempre el border-radius */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.login-form__logo-container{
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.login-form__logo{
+    display: block;
+    max-width: 125px;
+    margin: 0 auto; /* Centrar Logo */
+}
+
+.login-form__content{
+    padding: 30px;
+    background: #f5f5f5;
+}
+
+.login-form__header{
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+.login-form__input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.login_form__label-container{
+    padding: 10px;
+}
+
+.login_form__label{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login_form__p{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 0.8em;
+    padding: 10px 10px;
+}
+
+.login-form__checkbox{
+    padding: 4px;
+    font-size: 0.9em;
+    color: #5c5c5c;
+    text-decoration: none;
+    
+}
+
+.login-form__checkbox-container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 0.8em;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+}   
+
+.login-form__input:focus{
+    border-color: #424242;
+}
+
+.login-form__input::placeholder{
+    color: #aaaaaa;
+}
+
+.login-form__button-container{
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: max-content;
+    gap: 0.8em;
+}
+
+.login-form__button{
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #979797;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form__button:hover{
+    background-color: #242424;
+}
+
+.login-form__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login-form__link{
+    padding: 4px;
+    font-size: 0.9em;
+    color: #5c5c5c;
+    text-decoration: none;
+}
+
+.login-form__link:hover{
+    color: #242424;
+}
+
+/* Modal Login*/
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+
+    --opacity: 0;
+    --pointer: none;
+
+    opacity: var(--opacity);
+    pointer-events: var(--pointer);
+
+    transition: opacity .5s;
+}
+
+.modal:target{
+    --opacity: 1;
+    --pointer: unset;
+}
+
+.modal:target .modal_container{
+    animation: show 1s .5s backwards;
+}
+
+@keyframes show {
+    0%{
+        transform: translateY(-150vh);
+    }
+}
+
+/* Modal Registro*/
+.modal2{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+
+    --opacity: 0;
+    --pointer: none;
+
+    opacity: var(--opacity);
+    pointer-events: var(--pointer);
+
+    transition: opacity .5s;
+}
+
+.modal2:target{
+    --opacity: 1;
+    --pointer: unset;
+}
+
+.modal2:target .modal_container{
+    animation: show 1s .5s backwards;
+}
+
+/* Formulario con verificaciones Login */
+
+.formulario-login{
+    max-width: 495px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden; /* Sirve para mostrar siempre el border-radius */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Formulario con verificaciones Registro */
+.formulario{
+    max-width: 495px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden; /* Sirve para mostrar siempre el border-radius */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.login-form__header-formulario{
+    grid-column: span 2;
+}
+
+.formulario__label{
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formulario__grupo-input{
+    position: relative;
+}
+
+.formulario__input{
+    width: 100%;
+    background: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 40px 0 10px;
+    transition: .3 ease all;
+}
+
+.formulario__input:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.formulario__input-error{
+    font-size: 12px;
+    padding: 5px 5px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario__input-error-activo{
+    display: block;
+}
+
+.formulario__validacion-estado{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.formulario__mensaje,
+.formulario__grupo-btn-enviar{
+    grid-column: span 2;
+}
+
+.formulario__mensaje{
+    height: 45px;
+    line-height: 45px;
+    background-color: #F66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none;
+}
+
+.formulario__mensaje-activado{
+    display: block;
+}
+
+.formulario__grupo-btn-enviar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.formulario__btn:hover{
+    background-color: #242424;
+}
+
+.formulario__btn{
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #979797;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario__btn:hover{
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+.formulario__mensaje-exito{
+    font-size: 14px;
+    color: #119200;
+    padding-top: 10px;
+    display: none;
+}
+
+.formulario__mensaje-exito-activado{
+    display: block;
+}
+
+/* Estilos para validacion */
+
+.formulario__grupo-correcto .formulario__validacion-estado{
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label{
+    color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+    color: #bb2929;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input{
+    border: 3px solid #bb2929;
+}
+
+@media screen and (max-width: 800px){
+    .formulario{
+        grid-template-columns: 1fr;
+    }
+    .formulario__mensaje,
+    .formulario__grupo-btn-enviar{
+        grid-column: span 1;
+    }
+
+    .formulario__btn{
+        width: 100%;
+    }
+}
+
+.captchaS{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.captcha{
+    justify-content: center;
+}
