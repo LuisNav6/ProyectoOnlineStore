@@ -40,7 +40,7 @@
             <li><a href="#menu">Productos</a></li>
             <li><a href="#services">Servicio</a></li>
             <li><a href="#contact">Contacto</a></li>
-            <li style = "color:#FFE060;"><?php if(isset($_SESSION['cuenta'])){echo $_SESSION['cuenta']; echo '<li><a href="php/logout.php">Logout</a></li>';}else{echo '<li><a href="#modal" class="login">Iniciar sesión</a></li>';}?></li>
+            <?php if(isset($_SESSION['cuenta'])){ echo '<li><a href="#suscrip">Suscripciones</a></li>'; echo '<li style = "color:#FFE060;">'.$_SESSION['cuenta'].'</li>'; echo '<li><a href="php/logout.php">Logout</a></li>';}else{echo '<li><a href="#modal" class="login">Iniciar sesión</a></li>';}?>
             <!-- Dark Mode -->
             <div class="bx bx-moon" id="darkmode"></div>
         </ul>
@@ -94,7 +94,7 @@
             <!-- Box 2 -->
             <div class="box">
                 <div class="box-img">
-                    <img src="Img/c++.jpg" alt="">
+                    <img src="Img/AdidasX1.jpg" alt="">
                 </div>
                 <h2></h2>
                 <h3></h3>
@@ -104,7 +104,7 @@
             <!-- Box 3 -->
             <div class="box">
                 <div class="box-img">
-                    <img src="Img/php.jpg" alt="">
+                    <img src="Img/AdidasX1.jpg" alt="">
                 </div>
                 <h2></h2>
                 <h3></h3>
@@ -114,7 +114,7 @@
             <!-- Box 4 -->
             <div class="box">
                 <div class="box-img">
-                    <img src="Img/javascript.jpg" alt="">
+                    <img src="Img/AdidasX.png" alt="">
                 </div>
                 <h2></h2>
                 <h3></h3>

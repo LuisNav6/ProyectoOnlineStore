@@ -278,7 +278,7 @@ header {
 
 .social {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   list-style: none;
 }
 

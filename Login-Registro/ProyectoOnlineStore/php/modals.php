@@ -249,3 +249,74 @@
                 </div>
             </div>
         </section>
+        <!-- Modal Suscripcion !-->
+        <section class="modal" id="suscrip">
+            <div class="modal_container">
+                <form class="login-form" id="formInicioSesion" method="POST" action="php/mailSus.php">
+                    <div class="login-form__logo-container">
+                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                    </div>
+                    <div class="login-form__content">
+                            <div class="login-form__header">Suscribirse</div>
+                            <div class="login_form__label-container">
+                                <label for="correo" class="login_form__label">Email</label>
+                            </div>
+                            <input class="login-form__input" type="email" name="correo" placeholder="correo@gmail.com">
+                        <div class="login-form__button-container">
+                            <button class="login-form__button" type="submit" name = "submit">Suscribirse</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Modal Confirmar todo good mailSuscripcion!-->
+        <section class="modal" id="goodmail">
+            <div class="modal_container">
+                <div class="login-form">
+                    <div class="login-form__logo-container">
+                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                    </div>
+                    <div class="login-form__content">
+                        
+                        <div class="login-form__header">Mail Enviado</div>
+                        <div class="login-form__button-container">
+                                <a href="#home" class="btnN"> Cerrar</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal error Captcha !-->
+        <section class="modal" id="errorCapt">
+            <div class="modal_container">
+                <div class="login-form">
+                    <div class="login-form__logo-container">
+                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                    </div>
+                    <div class="login-form__content">
+                        
+                        <div class="login-form__header" style ="color:#CF271B"> Capture bien el captcha</div>
+                        <div class="login-form__button-container">
+                                <a href="#home" class="btnN"> Cerrar</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal error Usuario y/o contraseña !-->
+        <section class="modal" id="errorCapt">
+            <div class="modal_container">
+                <div class="login-form">
+                    <div class="login-form__logo-container">
+                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                    </div>
+                    <div class="login-form__content">
+                        
+                        <div class="login-form__header" style ="color:#CF271B"> Usuario y/o contraseña incorrectos</div>
+                        <div class="login-form__button-container">
+                                <a href="#home" class="btnN"> Cerrar</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

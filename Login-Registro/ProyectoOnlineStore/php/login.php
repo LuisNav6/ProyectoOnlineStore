@@ -101,9 +101,7 @@
                         exit();
                     }
                 }else{
-                    echo "<script> alert('Coloque el captcha') </script>";
-                    echo '<a href="../index.php#modal"> Volver </a>';
-                    $message = "Introduzca el texto que se ve en la imagen"; 
+                    header("Location: ../index.php#errorCapt");
                 }
             }
     }else{
