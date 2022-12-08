@@ -279,7 +279,7 @@
                     </div>
                     <div class="login-form__content">
                         
-                        <div class="login-form__header">Mail Enviado</div>
+                        <div class="login-form__header" style = "color: #35FA5D">Mail Enviado</div>
                         <div class="login-form__button-container">
                                 <a href="#home" class="btnN"> Cerrar</a> 
                         </div>
