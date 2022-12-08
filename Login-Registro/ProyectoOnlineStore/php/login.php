@@ -57,8 +57,7 @@
                             $_SESSION['nameAccount'] = $uname;
                             header("Location: ../index.php#bloq");
                         }else if(strcasecmp($_SESSION['captcha'], $_POST['securityCode']) != 0){
-                            echo "<script> alert('Captcha invalido') </script>";
-                            echo '<a href="../index.php#modal"> Volver </a>';
+                            header("Location: ../index.php#errorCapt");
                         }else{
                             if ($row['cuenta'] === $uname && decryptthis($row['password'],$key) === $pass) {
                                     $delete_query = mysqli_query($conexion,"DELETE FROM attempt_count WHERE ip_address ='$ip_address'");
@@ -96,9 +95,7 @@
                             }   
                         }
                     }else{
-                        echo "<script> alert('Usuario y/o nombre incorrecto') </script>";
-                        echo '<a href="../index.php#modal"> Volver </a>';
-                        exit();
+                        header("Location: ../index.php#errorUsr");
                     }
                 }else{
                     header("Location: ../index.php#errorCapt");

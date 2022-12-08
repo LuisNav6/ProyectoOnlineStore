@@ -264,6 +264,7 @@
                             <input class="login-form__input" type="email" name="correo" placeholder="correo@gmail.com">
                         <div class="login-form__button-container">
                             <button class="login-form__button" type="submit" name = "submit">Suscribirse</button>
+                            <a href="#home" class="btnN"> Cerrar</a> 
                         </div>
                     </div>
                 </form>
@@ -304,7 +305,7 @@
             </div>
         </section>
         <!-- Modal error Usuario y/o contraseña !-->
-        <section class="modal" id="errorCapt">
+        <section class="modal" id="errorUsr">
             <div class="modal_container">
                 <div class="login-form">
                     <div class="login-form__logo-container">
