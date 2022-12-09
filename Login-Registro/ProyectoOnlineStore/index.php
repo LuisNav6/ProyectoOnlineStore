@@ -40,7 +40,7 @@
             <li><a href="#menu">Productos</a></li>
             <li><a href="#services">Servicio</a></li>
             <li><a href="#contact">Contacto</a></li>
-            <?php if(isset($_SESSION['cuenta'])){ echo '<li><a href="#suscrip">Suscripciones</a></li>'; echo '<li style = "color:#FFE060;">'.$_SESSION['cuenta'].'</li>'; echo '<li><a href="php/logout.php">Logout</a></li>';}else{echo '<li><a href="#modal" class="login">Iniciar sesión</a></li>';}?>
+            <?php if(isset($_SESSION['cuenta'])){ echo '<li><a href="#suscrip">Suscripciones</a></li>'; echo '<li style = "color:#FFE060;">'.$_SESSION['cuenta'].'</li> '; echo '<li><a href="#shop"><img src="Img/cart.svg" alt="cart" class="cart"></a></li>'; echo '<li><a href="php/logout.php">Logout</a></li>';}else{echo '<li><a href="#modal" class="login">Iniciar sesión</a></li>';}?>
             <!-- Dark Mode -->
             <div class="bx bx-moon" id="darkmode"></div>
         </ul>

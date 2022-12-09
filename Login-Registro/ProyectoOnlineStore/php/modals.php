@@ -321,3 +321,20 @@
                 </div>
             </div>
         </section>
+        <!-- Modal carrito !-->
+        <section class="modal" id="shop">
+            <div class="modal_container">
+                <div class="login-form">
+                    <div class="login-form__logo-container">
+                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                    </div>
+                    <div class="login-form__content">
+                        
+                        <div class="login-form__header" style ="color:green"> Articulos Agregados al carrito</div>
+                        <div class="login-form__button-container">
+                                <a href="#home" class="btnN"> Cerrar</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
