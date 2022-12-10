@@ -162,11 +162,11 @@
             <span>Hablemos</span>
             <h2>Conectar ahora</h2>
         </div>
-        <a href="" class="btn">Contactanos</a>
+        <a href="#contacto" class="btn">Contactanos</a>
     </section>
 
     <!-- Contact -->
-    <footer class="contact" id="contact">
+    <footer class="contact">
         <div class="contact-box">
             <h3>SPORTRNR</h3>
             <span>Conectate con nosotros</span>

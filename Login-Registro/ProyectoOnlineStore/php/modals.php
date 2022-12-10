@@ -3,7 +3,7 @@
             <div class="modal_container">
                 <form class="login-form" id="formInicioSesion" method="POST" action="php/login.php">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                         <div class="login-form__header">Inicio de Sesion</div>
@@ -55,7 +55,7 @@
           <section id="modal2" class="modal2">
             <div class="modal2_container">
                 <div class="login-form__logo-container">
-                    <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                    <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                 </div>
                 
                 <form class="formulario login-form__content" id="formulario">
@@ -141,7 +141,7 @@
             <div class="modal_container">
                 <form class="login-form" id="formInicioSesion">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                         <div class="login-form__header">Usuario Bloqueado: <label style= "color:#EC250B"for="bloq"> <?php echo $_SESSION['nameAccount'] ?> </label> </div>
@@ -157,7 +157,7 @@
             <div class="modal_container">
                 <form class="login-form" id="formInicioSesion">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                         <div class="login-form__header">Datos erroneos intentos restantes : <label style= "color:#EC250B"for="bloq"> <?php echo $_SESSION['attempts'] ?> </label> </div>
@@ -173,7 +173,7 @@
             <div class="modal_container">
                 <form class="login-form" id="formInicioSesion" method="POST" action="php/mail.php">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                             <div class="login-form__header">Recuperar Contraseña</div>
@@ -193,7 +193,7 @@
             <div class="modal_container">
                 <form class="login-form" id="formInicioSesion" action ="php/tempPass.php" method = "POST">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                         <div class="login-form__header" style ="color:#03bb85">Correo enviado <?php echo $_SESSION['tempPass'];?></div>
@@ -213,7 +213,7 @@
             <div class="modal_container">
                 <form class="login-form" id="formInicioSesion" method="POST" action="php/updateAccount.php">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                             <div class="login-form__header">Recuperar Contraseña</div>
@@ -237,7 +237,7 @@
             <div class="modal_container">
                 <div class="login-form">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                         
@@ -254,7 +254,7 @@
             <div class="modal_container">
                 <form class="login-form" id="formInicioSesion" method="POST" action="php/mailSus.php">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                             <div class="login-form__header">Suscribirse</div>
@@ -275,7 +275,7 @@
             <div class="modal_container">
                 <div class="login-form">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                         
@@ -292,7 +292,7 @@
             <div class="modal_container">
                 <div class="login-form">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                         
@@ -309,7 +309,7 @@
             <div class="modal_container">
                 <div class="login-form">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                         
@@ -326,7 +326,7 @@
             <div class="modal_container">
                 <div class="login-form">
                     <div class="login-form__logo-container">
-                        <img src="Img/sportlogu.png" alt="Logo" class="login-form__logo">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
                     </div>
                     <div class="login-form__content">
                         
@@ -336,5 +336,38 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- Modal contacto !-->
+        <section class="modal" id="contacto">
+            <div class="modal_container">
+                <form class="login-form" id="formInicioSesion" method="POST" action="php/contacto.php">
+                    <div class="login-form__logo-container">
+                        <img src="Img/logo.png" alt="Logo" class="login-form__logo">
+                    </div>
+                    <div class="login-form__content">
+                            <div class="login-form__header">Contacto</div>
+                            <div class="login_form__label-container">
+                                <label for="usuario" class="login_form__label">Usuario</label>
+                            </div>
+                            <input class="login-form__input" type="text" name="fm_username" placeholder="Nombre de usuario">
+                            <div class="login_form__label-container">
+                                <label for="correo" class="login_form__label">Email</label>
+                            </div>
+                            <input class="login-form__input" type="email" name="correo" placeholder="correo@gmail.com">
+                            <div class="login_form__label-container">
+                                <label for="usuario" class="login_form__label">Mensaje</label>
+                            </div>
+                            <textarea class="login-form__input" name="textarea" id="" cols="30" rows="10" style="width:300px heigth:100px"></textarea>
+                        <div class="contBotones">
+                            <div class="login-form__button-container">
+                                <button class="login-form__button" type="submit" name = "submit">Enviar correo</button>
+                            </div>
+                            <div class="login-form__button-container">
+                                    <a href="#home" class="btnN"> Cerrar</a> 
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
