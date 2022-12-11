@@ -1,0 +1,121 @@
+.contenedor1{
+    display:flex;
+    border-radius: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+  }
+  .contenedor2{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    border-radius: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    margin: 40px; 
+  }
+  
+  .izquierdaAlta{
+    height: 300px;
+    background-color: #03bb85;
+    border-radius: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+   .izqAlta form{
+     margin-left: 20px;
+     margin-top:10px;
+     border-radius: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+   }
+  
+  .izquierdaBaja{
+     
+    height: 300px;
+    background-color:#047b57;
+    border-radius: 10px;
+    border: none;
+    font-size: xx-small;
+    font-family: "Poppins", sans-serif;
+  }
+  .derecha{
+     width:60%;
+     height: 600px;
+     background-color:#02432f;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+    border: none;  
+    font-family: "Poppins", sans-serif;   
+  }
+  
+   
+  .estiloformulario{
+      border: none;
+      padding: 20px;
+      border-radius: 10px;
+      font-family: "Poppins", sans-serif;
+  }
+  
+  
+  td,th{
+    padding:10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  } 
+  .wrapper {
+    background-color:#02432f;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+    color: white;
+  }
+  .form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+  }
+  .form-row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+  }
+  .form-row > input {
+    flex: 2;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: .5em;
+  }
+  .form-row > button {
+  border: 0;
+  }
+  
+  /* reducir tamano del formulario*/
+  form{
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #btn{
+    border-radius: 10px;
+    border:none;
+    background-color: white;
+    color:#1e1c2a;
+    text-align: center;
+    transition: 0.5s;
+    font-family: "Poppins", sans-serif;
+  }
+  #btn:hover{
+    transform: scale(1.1);
+  }
+
+  *{
+    font-family: "Poppins", sans-serif;
+  }
+   
